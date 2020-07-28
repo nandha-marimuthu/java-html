@@ -1,4 +1,4 @@
 function reverse_string(s){
     console.log(s.split('').reverse().join(''))
 }
-reverse_string('')
+reverse_string('reversestring')
