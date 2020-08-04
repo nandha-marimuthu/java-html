@@ -7,11 +7,10 @@ function eve_odd(arr){
         }
         else{
                 odd.push(arr[i])
-
             }
-        }
-        odd.sort(function(a, b){return b-a});//sorting in ascendingorder
-        eve.sort(function(a, b){return a-b});//sorting in descending order
-        console.log('eve_ascending',eve,'\nodd_desending',odd) 
     }
-eve_odd([78,356776,1111111,23,45,7,5,23,67,23,78,23,76,23,56,12,346,7135,3266])
+        odd.sort(function(a, b){return b-a});
+        eve.sort(function(a, b){return a-b});
+        console.log('eve_ascending',eve,'\nodd_desending',odd) 
+}
+eve_odd([82,35,67,23,38,92,41,54,63,12,88])
